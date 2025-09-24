@@ -1,0 +1,26 @@
+{
+  "name": "Twilio Flex Sample Backend",
+  "description": "twilio Bugbounty POC by @nvk0x",
+  "env": {
+    "TWILIO_ACCOUNT_SID": {
+      "description": "Your Twilio Account SID",
+      "required": true
+    },
+    "TWILIO_AUTH_TOKEN": {
+      "description": "Your Twilio Auth Token",
+      "required": true
+    },
+    "TWILIO_FLEX_WORKSPACE_SID": {
+      "description": "TaskRouter Flex Assignment Workspace SID",
+      "required": true
+    },
+    "TWILIO_OUTBOUND_WORKFLOW_SID": {
+      "description": "The Workflow SID for outbound calls",
+      "required": true
+    },
+    "EXTERNAL_HOST": {
+      "description": "Heroku app name or external host URL",
+      "required": true
+    }
+  }
+}
