@@ -1,0 +1,14 @@
+{
+  "name": "twilio-event-streams-reporting-example",
+  "version": "1.0.0",
+  "description": "Twilio Bugbounty POC by @nvk0x",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2"
+  }
+}
