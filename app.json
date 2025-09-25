@@ -1,6 +1,6 @@
 {
-  "name": "twilio-event-streams-reporting-example",
-  "description": "twilio Bugbounty POC by @nvk0x",
+  "name": "Twilio Flex Sample Backend",
+  "description": "Demo backend service for Twilio Flex integrations",
   "env": {
     "TWILIO_ACCOUNT_SID": {
       "description": "Your Twilio Account SID",
