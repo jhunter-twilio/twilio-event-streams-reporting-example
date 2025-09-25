@@ -1,7 +1,7 @@
 {
-  "name": "twilio-event-streams-reporting-example",
+  "name": "twilio-flex-sample-backend",
   "version": "1.0.0",
-  "description": "Twilio Bugbounty POC by @nvk0x",
+  "description": "Demo backend service for Twilio Flex integrations",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
